@@ -23,3 +23,10 @@
     - uses the kernel of the host it's running on
 
 # The container itself doesn't come packaged with its own kernel
+
+# The line:
+
+ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
+
+- is the entry point of the contained app
+- it's the command to run each time a container will get started from this image
