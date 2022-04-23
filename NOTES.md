@@ -36,4 +36,9 @@ ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
 # And a container is basically a 'running image'
 
 # In Object-Oriented Programming
+
 - An image would be a class and a container is an instance of that class
+
+# Images are build-time constructs
+
+# Containers are run-time constructs
