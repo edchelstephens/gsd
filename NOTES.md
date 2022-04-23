@@ -50,7 +50,20 @@ ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
 # Virtual Machines virtualize hardware
 
 # Containers virtualize Operating Systems :)
-# Each container is basically a virtual operating system 
+
+# Each container is basically a virtual operating system
+
 - it has it's own process tree
 - own root file system
 - its own eth0(the first Ethernet interface) and all the rest
+
+# Just like every VM on a host shares the same hardware
+
+# Every container on a host shares the same OS kernel
+
+# Because there's only a single OS kernel in the container model,
+
+# Containers are smaller, faster and more light weight than Virtual Machines
+
+- Meaning more applications per square foot of infrastructure
+- It's because containers are just app code and dependencies!!
