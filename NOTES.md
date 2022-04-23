@@ -46,3 +46,11 @@ ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
 # Containerized App
 
 - An application that runs inside a container
+
+# Virtual Machines virtualize hardware
+
+# Containers virtualize Operating Systems :)
+# Each container is basically a virtual operating system 
+- it has it's own process tree
+- own root file system
+- its own eth0(the first Ethernet interface) and all the rest
