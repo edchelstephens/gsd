@@ -30,3 +30,7 @@ ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
 
 - is the entry point of the contained app
 - it's the command to run each time a container will get started from this image
+
+# An image is basically a 'stopped container'
+
+# And a container is basically a 'running image'
