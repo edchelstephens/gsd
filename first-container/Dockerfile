@@ -2,9 +2,9 @@
 # Linux x64
 FROM node:current-alpine
 
-LABEL org.opencontainers.image.title="Hello Docker Learners!" \
+LABEL org.opencontainers.image.title="Hello Docker from Dot!" \
       org.opencontainers.image.description="Web server showing host that responded" \
-      org.opencontainers.image.authors="@nigelpoulton"
+      org.opencontainers.image.authors="@edchelstephens"
 
 # Create directory in container image for app code
 RUN mkdir -p /usr/src/app
