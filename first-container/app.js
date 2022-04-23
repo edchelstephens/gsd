@@ -9,7 +9,7 @@ app.set("view engine", "handlebars");
 app.use(express.static("static"));
 app.use(morgan("combined"));
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8000;
 var message =
   process.env.MESSAGE || "Having a blast learning Docker! Thanks Nigel! -Ed :)";
 
