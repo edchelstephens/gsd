@@ -42,3 +42,7 @@ ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
 # Images are build-time constructs
 
 # Containers are run-time constructs
+
+# Containerized App
+
+- An application that runs inside a container
