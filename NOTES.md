@@ -68,6 +68,17 @@ ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
 - Meaning more applications per square foot of infrastructure
 - It's because containers are just app code and dependencies!!
 
-
 # Declarative Deployment
+
 - Describing the desired state of your application in a config file that you use to deploy and manage the app
+
+# Docker swarm mode
+
+- cluster multiple docker hosts into a secure highly available cluster
+- The cluster comprises managers and workers, and actually we call the cluster a "swarm"
+
+# A swarm is a cluster of one or more manager nodes and some worker nodes
+
+# The manager hosts the control plane features
+
+# Managers should be highly available, usually 3-5
