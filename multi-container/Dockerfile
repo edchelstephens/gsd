@@ -11,4 +11,4 @@ WORKDIR /code
 RUN pip install -r requirements/production.txt
 
 # Command to run when container starts
-ENTRYPOINT ["python", "app.py"]
+ENTRYPOINT ["python", "flask_app.py"]

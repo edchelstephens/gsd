@@ -1,8 +1,8 @@
 version: "3.8"
 services:
-  web-front-end:
+  web-front-end-flask:
     build: .
-    command: python app.py
+    command: python flask_app.py
     ports:
       - target: 5000
         published: 5000
