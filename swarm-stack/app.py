@@ -21,7 +21,7 @@ def get_hit_count():
 def hello():
     count = get_hit_count()
     ctrname = socket.gethostname()
-    return "You've refreshed {} times. Request served by {} \n".format(count, ctrname)
+    return "Refreshed {} times. Refresh again! Request served by {} \n".format(count, ctrname)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)

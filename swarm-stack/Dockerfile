@@ -8,7 +8,7 @@ ADD . /code
 WORKDIR /code
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install -r requirements/production.txt
 
 # Command to run when container starts
 ENTRYPOINT ["python", "app.py"]

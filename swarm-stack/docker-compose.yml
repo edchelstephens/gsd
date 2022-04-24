@@ -1,7 +1,7 @@
 version: "3.8"
 services:
-  web-fe:
-    image: nigelpoulton/gsd:swarm-stack
+  gsd-frontend:
+    image: edchelstephens/gsd:dd8a807237324dafae20dd51e7eaa7cc932df0d2
     command: python app.py
     deploy:
       replicas: 10
