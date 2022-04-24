@@ -67,3 +67,7 @@ ENTRYPOINT ["node", "app.js"] (See first-container.Dockerfile)
 
 - Meaning more applications per square foot of infrastructure
 - It's because containers are just app code and dependencies!!
+
+
+# Declarative Deployment
+- Describing the desired state of your application in a config file that you use to deploy and manage the app
