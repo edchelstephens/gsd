@@ -31,7 +31,7 @@ def index():
     <body>
         <main>
             <h1 style="font-weight:bold;color:green"><code>Dodot Tries Docker Compose!</code></h1>
-            <p style="font-weight:bold; color:darkgreen">Hit refresh if you think Django is the best web framework in the world!</p>
+            <p style="font-weight:bold; color:darkgreen">Yoo! Hit refresh if you think Django is the best web framework in the world!</p>
             <br/>
             <p style="font-weight:bold; color:darkgreen">You've only refreshed {} times. REFRESH MORE!!!\n</p>
         
