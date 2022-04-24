@@ -1,7 +1,8 @@
 version: "3.9"
 services:
   frontendflask:
-    build: -t edchelstephens/multicontainer:0 .
+    build: .
+    image: multi-container_frontendflask:1
     command: python app.py
     ports:
       - target: 5000
